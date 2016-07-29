@@ -15,9 +15,11 @@ It will not protect you from dictionary attacks so try to avoid such names as : 
 
 Instead, try to chose better names like : ``My_Site_Adm``
 
-Obviously, it won't protect you from bruteforce attacks but those kind of attacks can be easily blocked by specific tools (ie:fail2ban)
+Obviously, it won't protect you from bruteforce attacks but those kind of attacks can be easily blocked by specific tools (ie:[fail2ban]http://www.fail2ban.org/)
 
 In order to get it work, simply customize the two variables in the scripts to match your configuration :
 
-    newname="mypersonaladminplace" # new admin path
-    wpath="/var/www/wordpress" # wordpress location
+
+    /-----------------------------------/
+    /     /
+    /-----------------------------------/
