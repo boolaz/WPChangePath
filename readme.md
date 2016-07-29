@@ -11,12 +11,13 @@ Most of the time, in order to compromise a WORDPRESS website, the bad guy has to
 
 The purpose of this script is "Security through obscurity". The idea is to change the default admin URL so that you'll be protected from transversal attacks.
 
-It will not protect you from dictionary attacks so try to avoid such names as ``admin``, ``management`` ...
+It will not protect you from dictionary attacks so try to avoid such names as : ``admin``, ``management`` ...
 
 Instead, try to chose better names like : ``My_Site_Adm``
 
 Obviously, it won't protect you from bruteforce attacks but those kind of attacks can be easily blocked by specific tools (ie:fail2ban)
 
 In order to get it work, simply customize the two variables in the scripts to match your configuration :
+
     newname="mypersonaladminplace" # new admin path
     wpath="/var/www/wordpress" # wordpress location
