@@ -19,7 +19,13 @@ Obviously, it won't protect you from bruteforce attacks but those kind of attack
 
 In order to get it work, simply customize the two variables in the scripts to match your configuration :
 
+    /-----------------------------------/
+    newname="mypersonaladminplace" # new admin path
+    wpath="/var/www/wordpress" # wordpress location
+    /-----------------------------------/
 
-    /-----------------------------------/
-    /     /
-    /-----------------------------------/
+just set those scripts to executable and enjoy :
+
+    $ chmod +x wpchgpath.sh wprestoregpath.sh
+    $ ./wpchgpath.sh
+    $ ./wprestoregpath.sh
