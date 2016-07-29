@@ -26,6 +26,6 @@ In order to get it work, simply customize the two variables in the scripts to ma
 
 just set those scripts to executable and enjoy :
 
-    $ chmod +x wpchgpath.sh wprestoregpath.sh
+    $ chmod +x wpchgpath.sh wprestorepath.sh
     $ ./wpchgpath.sh
-    $ ./wprestoregpath.sh
+    $ ./wprestorepath.sh
